@@ -1,8 +1,8 @@
-let initialGameBoard = [
-    [null, null, null],
-    [null, null, null],
-    [null, null, null],
-];
+// let initialGameBoard = [
+//     [null, null, null],
+//     [null, null, null],
+//     [null, null, null],
+// ];
 
 export default function GameBoard({ onSelectSquare, board }) {
     // we can also maintain seperate state for gameboard in 2d array like below but it couldnot be used
